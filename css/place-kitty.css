@@ -1,5 +1,5 @@
 /* Select the image with a class of kitty-1 */
- img.kitty-1 {
+.kitty-1 {
   position: absolute;
   z-index: 1;
   top: 276px;
@@ -7,7 +7,7 @@
 }
 
 /* Select the image with id of kitty-2 */
-img#kitty-2 {
+#kitty-2 {
   position: absolute;
   z-index: 2;
   top: 212px;
@@ -31,7 +31,7 @@ div#ball + img {
 }
 
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
- div img {
+ div[type="img"] {
   position: absolute;
   z-index: 3;
   top: 217px;
